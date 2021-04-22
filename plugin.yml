@@ -1,0 +1,16 @@
+name: DayNightVoting
+main: Julicraft_44\DayNightVoting\Main
+api: 3.0.0
+version: 1.0.0
+author: Julicraft_44
+depend: FormAPI
+commands:
+    timevote:
+        description: Vote for day or night
+        permission: daynightvoting.use
+        usage: /timevote
+
+permissions:
+    daynightvoting.use:
+        description: Permission to vote for daytime or nighttime
+        default: op

@@ -1,0 +1,39 @@
+
+#If the executor has no permission
+no-perm: "§cYou do not have the permission to execute this command"
+#If the executor is not a player
+no-player: "You are not a player. Only players can execute this command"
+#
+#This shouldn't execute at all...
+error: "§cThere was an error during the vote"
+#
+#Send a message to all players on the server that the
+#timevote has stated with two messages
+timevote-start-1: "§b§lTimevote started"
+timevote-start-2: "§8You will get a form to vote for either day or night"
+#
+#Send a message to player who chose either day or night
+choose-day: "§cYou chose day"
+choose-night: "§cYou chose night"
+#Send a message to the player with the total amount of votes
+#for their choice
+#Use %total to show the total votes for their choice
+total-day: "§aTotal§8: §c%total"
+total-night: "§aTotal§8: §c%total"
+#
+#Voteform design
+form-title: "Timevote menu"
+form-content: "Choose your time"
+form-button-day: "DAY"
+form-button-night: "NIGHT"
+#
+#Broadcast a message to the server when the timer ends
+#Use %total to show the total votes for the winning time
+daytime-win: "§cA total of §a%total §cpayer(s) voted for day. §eDay won!"
+nighttime-win: "§cA total of §a%total §cplayer(s) voted for the night. §eNight won!"
+tie-win: "§cNo time won. §8Tie! §cThe time doesn't change."
+
+#Configuration
+setDayTime: 1000    #Default 1000    (0-24000)
+setNightTime: 13000 #Default 13000   (0-24000)
+voteTime: 1200      # 20ticks = 1sec (1200 = 60sec)
