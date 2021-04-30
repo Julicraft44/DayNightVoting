@@ -16,7 +16,6 @@ class Main extends PluginBase {
     
     public function onEnable() {
         $this->saveDefaultConfig();
-        $this->getLogger()->info("DayNightVoting enabled");
     }
     
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool {
